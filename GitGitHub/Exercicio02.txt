@@ -1,0 +1,54 @@
+## 🧪 Exercício 2 – Inserindo recursos no README
+
+### 🎯 Objetivo
+
+Aprender a inserir diferentes tipos de recursos em um arquivo `README.md`, tornando-o mais completo, interativo e profissional.
+
+---
+
+## 📚 Atividade
+
+Pesquise como adicionar os seguintes elementos em um arquivo `README.md` e implemente todos eles:
+
+- 🔗 Um link para um site;
+
+    [Acesse o Google](https://www.google.com)
+
+- 📁 Um link para outro arquivo do projeto;
+
+    [Abrir arquivo](arquivo.txt)
+
+    Se estiver em pasta diferente:
+    [Abrir documento](docs/arquivo.txt)
+
+- 🖼️ Uma imagem;
+
+    📌 Imagem local (dentro do projeto)
+    ![Minha imagem](imagem.png)
+
+    📌 Imagem da internet
+    ![GitHub](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
+
+- 📄 Um arquivo PDF;
+
+    Se o PDF estiver no projeto:
+    [Baixar PDF](arquivo.pdf)
+
+    Se estiver em pasta:
+    [Baixar PDF](docs/arquivo.pdf)
+
+- 🎞️ Um GIF (opcional).
+
+    ![GIF](https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif)
+
+---
+
+## 🔗 Links
+
+### 🌐 Link para um site
+
+Exemplo:
+
+```markdown
+[Acesse o Google](https://www.google.com)
+

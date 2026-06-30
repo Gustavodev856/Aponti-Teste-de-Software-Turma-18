@@ -1,0 +1,36 @@
+# 📘 Exercício 3 – Organização do README
+
+---
+
+# 🚀 Título do Projeto
+
+Projeto de Estudo – Git e GitHub
+
+---
+
+## 🎯 Objetivo
+
+Este projeto tem como objetivo praticar a utilização do **Git e GitHub**, aprendendo sobre controle de versão, criação de repositórios, commits, branches e organização de projetos.
+
+---
+
+## 🛠️ Tecnologias utilizadas
+
+- Git
+- GitHub
+- Markdown
+- VS Code (opcional)
+
+---
+
+## 📁 Estrutura das pastas
+
+```text id="strct1"
+projeto/
+│
+├── README.md
+├── index.html
+├── style.css
+├── script.js
+└── imagens/
+

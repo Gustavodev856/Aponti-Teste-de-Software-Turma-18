@@ -1,0 +1,50 @@
+## 🧪 Exercícios
+
+### Exercício 1 – Explorando o README.md no GitHub
+
+# 📘 Atividade – Explorando o README.md no GitHub
+
+---
+
+## 🎯 Objetivo
+
+Aprender a utilizar a linguagem **Markdown** para criar um `README.md` organizado, informativo e visualmente atrativo, semelhante aos utilizados em projetos profissionais no GitHub.
+
+---
+
+## 🧠 Introdução
+
+O Markdown é uma linguagem de marcação simples utilizada para formatar textos na internet, principalmente em arquivos README no GitHub.  
+Ele permite criar documentos organizados usando títulos, listas, código, tabelas e outros elementos visuais sem precisar de ferramentas complexas.
+
+No desenvolvimento de software, o README é muito importante porque explica o projeto, suas funcionalidades e como utilizá-lo.
+
+---
+
+## 🧪 Exercício 1 – Melhorando o visual do README
+
+Utilize o ChatGPT ou a documentação oficial do Markdown para pesquisar formas de deixar um **README personalizado** mais organizado e bonito.
+
+Em seguida, aplique no seu README os seguintes recursos:
+
+### ✏️ Recursos obrigatórios
+
+- 🎯 Títulos e subtítulos;
+- **Negrito** e *itálico*;
+- 📋 Listas numeradas e com marcadores;
+- ➖ Linhas horizontais;
+- 💻 Blocos de código;
+- 😀 Emojis;
+- 📊 Tabelas (opcional).
+
+---
+
+## 📌 Exemplos de Markdown
+
+### 🔠 Títulos e subtítulos
+
+```markdown
+# Título principal
+## Subtítulo
+### Subtítulo menor
+
