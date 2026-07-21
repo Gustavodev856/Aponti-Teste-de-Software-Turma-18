@@ -1,0 +1,21 @@
+
+# 🧪 Exercício 4 – Blocos de Código
+
+---
+
+## 🎯 Objetivo
+
+Aprender a utilizar **blocos de código no Markdown**, organizando exemplos de comandos e linguagens de programação dentro do `README.md`.
+
+---
+
+## 💻 Comandos Git
+
+Exemplo de comandos básicos do Git:
+
+```bash id="git01"
+git init
+git add .
+git commit -m "primeiro commit"
+git status
+git log

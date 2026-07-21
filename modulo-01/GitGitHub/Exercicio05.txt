@@ -1,0 +1,20 @@
+
+# 🧪 Exercícios 5 e 6 – Checklist e Tabela
+
+---
+
+## ✅ Exercício 5 – Checklist de atividades
+
+Crie uma lista de tarefas utilizando **checkboxes** no Markdown:
+
+### 📋 Tarefas do projeto
+
+- [x] Criar repositório
+- [x] Adicionar README
+- [x] Inserir imagem
+- [x] Inserir PDF
+- [ ] Inserir GIF
+- [ ] Finalizar documentação
+- [ ] Publicar no GitHub
+
+---

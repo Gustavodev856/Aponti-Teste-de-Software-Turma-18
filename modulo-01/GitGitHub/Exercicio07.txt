@@ -1,0 +1,27 @@
+
+# 🧪 Exercício 7 – Badges do GitHub
+
+---
+
+## 🎯 Objetivo
+
+Aprender a utilizar **Badges (selos)** no `README.md` para deixar o projeto mais profissional e visualmente organizado.
+
+---
+
+## 🏷️ O que são Badges?
+
+Badges são pequenos selos informativos que aparecem no topo do README e mostram informações rápidas sobre o projeto, como:
+
+- Linguagem utilizada
+- Status do projeto
+- Licença
+- Versão
+
+---
+
+## 📌 Badges adicionados ao projeto
+
+### 💻 Linguagem utilizada
+```markdown id="bd1"
+![GitHub language](https://img.shields.io/badge/language-HTML-blue)

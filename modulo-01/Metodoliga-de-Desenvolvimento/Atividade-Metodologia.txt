@@ -1,0 +1,17 @@
+# Atividade Avaliativa
+
+## Tabela Comparativa: Metodologia Ágil x Metodologia Cascata
+
+| Critério                    | Metodologia Ágil                                                                                                | Metodologia Cascata                                                                                              |
+| --------------------------- | --------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| **Conceito**                | Modelo de desenvolvimento iterativo e incremental, com entregas frequentes e adaptação às mudanças.             | Modelo sequencial em que cada etapa é concluída antes do início da próxima.                                      |
+| **Planejamento**            | Flexível e adaptável durante o projeto.                                                                         | Rígido e definido no início do projeto.                                                                          |
+| **Entregas**                | Realizadas em ciclos curtos (sprints).                                                                          | Realizadas apenas ao final do desenvolvimento.                                                                   |
+| **Participação do cliente** | Contínua, com feedback frequente.                                                                               | Limitada, geralmente no início e na entrega final.                                                               |
+| **Testes**                  | Acontecem durante todo o desenvolvimento, em cada sprint, permitindo identificar e corrigir falhas rapidamente. | São realizados após a conclusão do desenvolvimento, antes da entrega do produto.                                 |
+| **Vantagens**               | Flexibilidade, entregas rápidas, maior qualidade devido aos testes contínuos e adaptação às mudanças.           | Planejamento detalhado, documentação completa e facilidade de gerenciamento em projetos com requisitos estáveis. |
+| **Limitações**              | Exige maior participação do cliente e equipes preparadas; estimativas podem mudar ao longo do projeto.          | Pouca flexibilidade para mudanças e maior custo para corrigir erros identificados tardiamente.                   |
+
+## Conclusão
+
+A **Metodologia Ágil** é mais indicada para projetos que exigem flexibilidade e mudanças frequentes, pois os testes são realizados continuamente durante o desenvolvimento. Já a **Metodologia Cascata** é recomendada para projetos com requisitos bem definidos, nos quais os testes são concentrados na fase final, após a implementação.

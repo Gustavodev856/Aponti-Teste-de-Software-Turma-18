@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Painel Login e Cadastro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="panel" id="panel">
+    <!-- Login -->
+    <div class="form-container login-container" id="loginForm">
+      <h2>Login</h2>
+      <input type="text" id="loginUser" placeholder="Usuário" required>
+      <input type="password" id="loginPass" placeholder="Senha (mín. 8 caracteres)" minlength="8" required>
+      <button type="button" onclick="login()">Entrar</button>
+      <button type="button" id="logoutBtn" class="hidden" onclick="logout()">Logout</button>
+      <p id="loginMsg"></p>
+    </div>
+
+    <!-- Cadastro -->
+    <div class="form-container register-container hidden" id="registerForm">
+      <h2>Cadastro - Clínica de Psicologia</h2>
+      <input type="text" id="registerName" placeholder="Nome completo" required>
+      <input type="email" id="registerEmail" placeholder="E-mail" required>
+      <input type="tel" id="registerPhone" placeholder="Telefone" required>
+      <input type="text" id="registerCrp" placeholder="CRP (Conselho Regional de Psicologia)" required>
+      <input type="text" id="registerSpecialty" placeholder="Especialidade" required>
+      <input type="text" id="registerUser" placeholder="Usuário" required>
+      <input type="password" id="registerPass" placeholder="Senha (mín. 8 caracteres)" minlength="8" required>
+      <button type="button" onclick="register()">Cadastrar</button>
+      <p id="registerMsg"></p>
+    </div>
+
+    <!-- Overlay -->
+    <div class="overlay" id="overlay">
+      <h2 id="overlayTitle">Bem-vindo!</h2>
+      <button id="toggleBtn">Cadastrar</button>
+    </div>
+  </div>
+
+  <!-- Área restrita -->
+  <div id="restrictedArea" class="restricted">
+    <h3>Área Restrita</h3>
+    <p>Bem-vindo, você está autenticado!</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

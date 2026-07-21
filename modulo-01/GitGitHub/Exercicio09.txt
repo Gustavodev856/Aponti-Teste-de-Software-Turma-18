@@ -1,0 +1,35 @@
+
+# 🧪 Exercício 9 – Links Internos
+
+---
+
+## 📌 Índice
+
+- [🎯 Objetivo](#-objetivo)
+- [📚 Conteúdo](#-conteúdo)
+- [🧪 Exercício](#-exercício)
+- [💡 Conclusão](#-conclusão)
+
+---
+
+## 🎯 Objetivo
+
+Criar um índice no início do README que permita navegar rapidamente para cada seção do documento.
+
+---
+
+## 📚 Conteúdo
+
+Neste exercício, foi aprendido como criar **links internos no Markdown**, permitindo que o usuário navegue entre seções do README de forma rápida e organizada.
+
+---
+
+## 🧪 Exercício
+
+### 🔗 Como funciona
+
+Links internos são criados usando o formato:
+
+```markdown id="lnk1"
+[Texto](#nome-da-seção)
+

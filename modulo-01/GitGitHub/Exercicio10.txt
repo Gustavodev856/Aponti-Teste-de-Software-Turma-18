@@ -1,0 +1,83 @@
+
+# 🚀 Exercício 10 – Desafio Final
+
+---
+
+## 🎯 Objetivo
+
+Explorar recursos avançados do **Markdown**, adicionando elementos diferentes para deixar o README mais completo, interativo e profissional.
+
+---
+
+## ✨ Texto riscado
+
+~~Este texto está riscado~~
+
+---
+
+## ⭐ Texto destacado
+
+**Negrito** e *itálico*
+
+---
+
+## 🌐 HTML dentro do Markdown
+
+<p style="color:blue;">Exemplo de HTML dentro do Markdown</p>
+
+---
+
+## 🖼️ Imagem clicável
+
+[![GitHub](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)](https://github.com)
+
+---
+
+## 📂 Detalhes expansíveis
+
+<details>
+  <summary>Clique para ver mais</summary>
+
+  Aqui dentro fica o conteúdo escondido.
+
+  - Item 1
+  - Item 2
+  - Item 3
+</details>
+
+---
+
+## 🧠 Âncoras (links internos)
+
+[Voltar ao topo](#-exercício-10--desafio-final)
+
+---
+
+## 📊 Tabela avançada
+
+| Recurso | Descrição | Status |
+|----------|------------|--------|
+| Texto riscado | ~~texto~~ | ✔️ |
+| HTML | Código dentro do Markdown | ✔️ |
+| Imagem clicável | Imagem com link | ✔️ |
+| Details | Conteúdo expansível | ✔️ |
+| Tabela | Organização de dados | ✔️ |
+
+---
+
+## 🏷️ Badges (escudos)
+
+![GitHub](https://img.shields.io/badge/GitHub-Repository-black)
+![Status](https://img.shields.io/badge/status-finalizado-green)
+![Language](https://img.shields.io/badge/language-Markdown-blue)
+
+---
+
+## 💡 Conclusão
+
+Esse exercício mostra como o Markdown pode ser usado para criar documentos mais:
+
+- Profissionais 💻  
+- Organizados 📁  
+- Visuais 👀  
+- Interativos 🔥  
