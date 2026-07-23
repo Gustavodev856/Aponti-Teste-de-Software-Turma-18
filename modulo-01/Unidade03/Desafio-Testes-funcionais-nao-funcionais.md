@@ -2,7 +2,9 @@
 
 ## Exercício 1 — Identificação das funcionalidades
 
-### Funcionalidade: Cadastrar paciente
+---
+
+## Funcionalidade: Cadastrar paciente
 
 | Campo | Descrição |
 |-------|-----------|
@@ -14,7 +16,7 @@
 
 ---
 
-### Funcionalidade: Cadastrar psicólogo
+## Funcionalidade: Cadastrar psicólogo
 
 | Campo | Descrição |
 |-------|-----------|
@@ -26,7 +28,7 @@
 
 ---
 
-### Funcionalidade: Agendar consulta
+## Funcionalidade: Agendar consulta
 
 | Campo | Descrição |
 |-------|-----------|
@@ -36,8 +38,29 @@
 | **Resultado esperado** | O agendamento é salvo com sucesso e fica disponível para consulta pelos profissionais envolvidos no atendimento. |
 | **Possíveis condições de erro** | Durante os testes foi observado que os campos de data e horário não possuem validação adequada, permitindo a inserção de formatos incorretos, como textos (strings), além de não apresentarem limite ou padrão definido. O campo de status também aceita valores sem validação. A ausência dessas regras pode gerar agendamentos com informações incorretas, causando problemas na organização da agenda da clínica. |
 
+---
 
+## Funcionalidade: Visualizar consultas
 
+| Campo | Descrição |
+|-------|-----------|
+| **Objetivo da funcionalidade** | Permitir que usuários da clínica consultem os atendimentos agendados, facilitando o acompanhamento da agenda de pacientes e psicólogos. |
+| **Usuário** | Recepcionista e Psicólogo. |
+| **Dados necessários** | Data da consulta, nome do paciente, nome do psicólogo e status da consulta. |
+| **Resultado esperado** | O sistema deve apresentar corretamente a lista de consultas cadastradas conforme os filtros informados pelo usuário. |
+| **Possíveis condições de erro** | Durante os testes foi observado que, caso não existam consultas cadastradas ou os filtros informados não correspondam a nenhum registro, o sistema pode não apresentar informações adequadas ao usuário. Também podem ocorrer problemas caso os dados da consulta estejam incompletos ou haja falha no carregamento das informações. |
+
+---
+
+## Funcionalidade: Registrar atendimento
+
+| Campo | Descrição |
+|-------|-----------|
+| **Objetivo da funcionalidade** | Permitir que o psicólogo registre informações da sessão realizada, mantendo o histórico de acompanhamento do paciente. |
+| **Usuário** | Psicólogo. |
+| **Dados necessários** | Nome do paciente, data do atendimento, observações da sessão e informações do acompanhamento psicológico. |
+| **Resultado esperado** | O atendimento é salvo no sistema e fica disponível no histórico do paciente para futuras consultas. |
+| **Possíveis condições de erro** | Durante os testes foi observado que o sistema pode permitir o salvamento de registros com informações incompletas caso não existam validações nos campos obrigatórios. Também podem ocorrer erros quando o paciente não está cadastrado ou quando há falha no armazenamento das informações. |
 
  -------------------------------------------------------------------------------------------------------------------------
 
@@ -131,3 +154,65 @@ Durante os testes foram identificadas falhas na validação dos campos:
 - O campo status também não possui validação adequada, permitindo valores fora do padrão esperado.
 
 A ausência dessas validações pode gerar registros de consultas incorretos, causando problemas na organização da agenda e no controle dos atendimentos da clínica.
+
+---
+
+# 4. Funcionalidade: Visualização de Consultas
+
+## Objetivo da funcionalidade
+A funcionalidade de visualização de consultas tem como objetivo permitir que os usuários da clínica consultem os agendamentos realizados, facilitando o acompanhamento da agenda de pacientes e psicólogos.
+
+## Usuário responsável
+**Recepcionista ou Psicólogo**
+
+## Dados necessários para consulta
+- Nome do paciente;
+- Nome do psicólogo;
+- Data da consulta;
+- Horário;
+- Status da consulta.
+
+## Resultado esperado
+Após realizar a busca, o sistema deve apresentar corretamente as consultas cadastradas de acordo com os filtros informados pelo usuário. As informações devem ser exibidas de forma organizada, permitindo o acompanhamento dos atendimentos agendados.
+
+## Testes realizados e possíveis erros encontrados
+Durante os testes foram identificadas possíveis falhas relacionadas à exibição e busca dos registros:
+
+- O sistema pode não apresentar mensagens adequadas quando não existem consultas cadastradas.
+- A pesquisa pode retornar resultados incorretos caso os filtros informados não sejam tratados corretamente.
+- Informações incompletas de consultas podem ser exibidas sem aviso ao usuário.
+- Pode ocorrer falha no carregamento dos dados caso haja problemas no armazenamento das informações.
+
+A ausência de tratamentos para esses casos pode dificultar o acompanhamento da agenda da clínica e causar erros na organização dos atendimentos.
+
+---
+
+# 5. Funcionalidade: Registro de Atendimento
+
+## Objetivo da funcionalidade
+A funcionalidade de registro de atendimento tem como objetivo permitir que o psicólogo armazene informações referentes às sessões realizadas, criando um histórico de acompanhamento dos pacientes atendidos pela clínica.
+
+## Usuário responsável
+**Psicólogo**
+
+## Dados necessários para registro
+- Nome do paciente;
+- Data do atendimento;
+- Informações da sessão;
+- Observações do psicólogo;
+- Histórico do atendimento.
+
+## Resultado esperado
+Após preencher os dados corretamente e salvar o atendimento, o sistema deve armazenar as informações e disponibilizá-las posteriormente para consulta no histórico do paciente.
+
+## Testes realizados e possíveis erros encontrados
+Durante os testes foram identificadas possíveis falhas relacionadas ao preenchimento e armazenamento dos dados:
+
+- O sistema pode permitir o salvamento de atendimentos sem o preenchimento de informações importantes.
+- Campos de observação podem aceitar dados vazios ou inválidos.
+- Pode ocorrer erro caso o paciente informado não esteja cadastrado no sistema.
+- Falhas no armazenamento podem impedir que o histórico do atendimento seja salvo corretamente.
+
+A falta de validações nesses campos pode comprometer o histórico dos pacientes e prejudicar o acompanhamento realizado pelos profissionais da clínica.
+
+---
